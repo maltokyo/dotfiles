@@ -98,5 +98,14 @@ brew install tree
 brew install vbindiff
 brew install zopfli
 
+
+## zmalmark add my casks
+brew cask install google-chrome
+brew cask install sublime-text
+brew cask install keepassxc
+brew cask install vlc
+brew cask install github
+
+
 # Remove outdated versions from the cellar.
 brew cleanup
