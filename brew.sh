@@ -36,7 +36,7 @@ fi;
 # zmalmark this one didnt accept the --with-iri option: brew install wget --with-iri
 
 # Install GnuPG to enable PGP-signing commits.
-brew install gnupg
+# zmalmark didnt work with github desktop: brew install gnupg
 
 # Install more recent versions of some macOS tools.
 # zmalmark this one didnt accept the --with-override-system-vi option: brew install vim --with-override-system-vi
