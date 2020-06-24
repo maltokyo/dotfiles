@@ -21,7 +21,7 @@ brew install moreutils
 # Install GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed.
 brew install findutils
 # Install GNU `sed`, overwriting the built-in `sed`.
-brew install gnu-sed --with-default-names
+# zmalmark this one didnt accept the --with-default-names option: brew install gnu-sed --with-default-names
 # Install a modern version of Bash.
 brew install bash
 brew install bash-completion2
@@ -33,13 +33,13 @@ if ! fgrep -q "${BREW_PREFIX}/bin/bash" /etc/shells; then
 fi;
 
 # Install `wget` with IRI support.
-brew install wget --with-iri
+# zmalmark this one didnt accept the --with-iri option: brew install wget --with-iri
 
 # Install GnuPG to enable PGP-signing commits.
 brew install gnupg
 
 # Install more recent versions of some macOS tools.
-brew install vim --with-override-system-vi
+# zmalmark this one didnt accept the --with-override-system-vi option: brew install vim --with-override-system-vi
 brew install grep
 brew install openssh
 brew install screen
