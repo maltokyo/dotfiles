@@ -100,6 +100,7 @@ brew install zopfli
 
 
 ## zmalmark add my casks
+brew install go
 brew cask install google-chrome
 brew cask install sublime-text
 brew cask install keepassxc
