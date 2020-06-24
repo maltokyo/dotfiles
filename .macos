@@ -207,7 +207,7 @@ sudo systemsetup -setcomputersleep Off > /dev/null
 sudo pmset -a hibernatemode 0
 
 # Remove the sleep image file to save disk space 
-# zmalmark this only can be done after this: https://christianvarga.com/how-to-delete-sleepimage-on-macos-high-sierra/
+# zmalmark this only can be done after this, so commenting out next three lines: https://christianvarga.com/how-to-delete-sleepimage-on-macos-high-sierra/
 #sudo rm /private/var/vm/sleepimage
 # Create a zero-byte file instead…
 #sudo touch /private/var/vm/sleepimage
@@ -233,7 +233,7 @@ defaults write com.apple.screencapture disable-shadow -bool true
 
 # Enable subpixel font rendering on non-Apple LCDs
 # Reference: https://github.com/kevinSuttle/macOS-Defaults/issues/17#issuecomment-266633501
-defaults write NSGlobalDomain AppleFontSmoothing -int 1
+# zmlmark comment out until i have non apple LCD: defaults write NSGlobalDomain AppleFontSmoothing -int 1
 
 # Enable HiDPI display modes (requires restart)
 sudo defaults write /Library/Preferences/com.apple.windowserver DisplayResolutionEnabled -bool true
