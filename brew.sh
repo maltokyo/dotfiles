@@ -84,7 +84,7 @@ brew install ack
 brew install git
 brew install git-lfs
 brew install gs
-brew install imagemagick --with-webp
+brew install imagemagick # zmalmark this option didnt work even though it should according to the manual: --with-webp
 brew install lua
 brew install lynx
 brew install p7zip
