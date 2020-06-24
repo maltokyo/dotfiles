@@ -108,13 +108,13 @@ brew cask install vlc
 brew cask install github
 brew cask install bbedit
 brew cask install nextcloud
-brew cask install virtualbox
-brew cask install virtualbox-extension-pack
 brew cask install balenaetcher
 brew cask install calibre
 brew cask install electrum
 brew cask install gimp
 brew cask install transmission
+#brew cask install virtualbox
+#brew cask install virtualbox-extension-pack
 
 # Remove outdated versions from the cellar.
 brew cleanup
