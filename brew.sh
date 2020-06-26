@@ -113,8 +113,14 @@ brew cask install calibre
 brew cask install electrum
 brew cask install gimp
 brew cask install transmission
+# zmalmark - get error when commiting to git using Git GUI, so need to run this as per here: https://github.com/desktop/desktop/issues/1391
+git config --global commit.gpgsign false
 #brew cask install virtualbox
 #brew cask install virtualbox-extension-pack
+
+# malmark for reading ext4 volumnes from here: https://www.maketecheasier.com/mount-access-ext4-partition-mac/
+brew cask install osxfuse
+brew install ext4fuse
 
 # Remove outdated versions from the cellar.
 brew cleanup
