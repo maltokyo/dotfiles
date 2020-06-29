@@ -120,6 +120,7 @@ brew cask install transmission
 brew cask install darktable
 brew cask install rawtherapee
 brew cask install bisq
+brew cask install adobe-creative-cloud
 
 # zmalmark - My Transmit licence is version 4, so I can only get latest version of 4 which is 4.1.3
 # download link broken so made my own tap on github - see next lines: brew cask install https://raw.githubusercontent.com/caskroom/homebrew-cask/7019074dcb817227d41985b9e0768f11f8ce713a/Casks/transmit.rb
