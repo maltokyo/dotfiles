@@ -110,7 +110,7 @@ brew cask install sublime-text
 brew cask install keepassxc
 brew cask install vlc
 brew cask install github
-brew cask install bbedit
+# brew cask install bbedit
 brew cask install nextcloud
 brew cask install balenaetcher
 brew cask install calibre
