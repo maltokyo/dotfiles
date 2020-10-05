@@ -102,6 +102,8 @@ brew install zopfli
 
 # zmalmark binaries.
 brew install fdupes
+brew install rclone
+brew install htop
 
 
 ## zmalmark add my casks
