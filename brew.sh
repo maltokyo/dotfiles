@@ -100,10 +100,13 @@ brew install vbindiff
 brew install zopfli
 
 
+
 # zmalmark binaries.
 brew install fdupes
 brew install rclone
 brew install htop
+brew install tor
+brew install rclone
 
 
 ## zmalmark add my casks
