@@ -120,18 +120,19 @@ brew cask install calibre
 brew cask install electrum
 brew cask install gimp
 brew cask install transmission
-brew cask install darktable
-brew cask install rawtherapee
-brew cask install bisq
+# brew cask install darktable
+# brew cask install rawtherapee
+# brew cask install bisq
 brew cask install adobe-creative-cloud
 brew cask install duplicati
-#brew cask install standard-notes
+# brew cask install standard-notes
 brew cask install btcpayserver-vault
 brew cask install tor-browser
 brew cask install joplin
-brew cask install appcleaner
+brew cask install appcleaner # clean up of Mac apps
 brew cask install openmtp # Transfer files from Android to mac
 brew cask install google-drive-file-stream
+# brew cask install syncplay # to play movie files and watch together with someone remotely
 
 # zmalmark - My Transmit licence is version 4, so I can only get latest version of 4 which is 4.1.3
 # download link broken so made my own tap on github - see next lines: brew cask install https://raw.githubusercontent.com/caskroom/homebrew-cask/7019074dcb817227d41985b9e0768f11f8ce713a/Casks/transmit.rb
