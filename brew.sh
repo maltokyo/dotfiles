@@ -45,6 +45,7 @@ brew install openssh
 brew install screen
 brew install php
 brew install gmp
+brew install go
 
 # Install font tools.
 brew tap bramstein/webfonttools
@@ -106,11 +107,9 @@ brew install fdupes
 brew install rclone
 brew install htop
 brew install tor
-brew install rclone
 
 
 ## zmalmark add my casks
-brew install go
 brew cask install google-chrome
 brew cask install sublime-text
 brew cask install keepassxc
@@ -122,6 +121,7 @@ brew cask install balenaetcher
 brew cask install calibre
 brew cask install electrum
 brew cask install gimp
+brew cask install docker
 brew cask install transmission
 # brew cask install darktable
 # brew cask install rawtherapee
