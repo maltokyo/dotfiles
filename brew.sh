@@ -125,7 +125,7 @@ brew cask install docker
 brew cask install transmission
 # brew cask install darktable
 # brew cask install rawtherapee
-# brew cask install bisq
+brew cask install bisq
 brew cask install adobe-creative-cloud
 brew cask install duplicati
 # brew cask install standard-notes
