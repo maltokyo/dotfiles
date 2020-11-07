@@ -133,6 +133,7 @@ brew cask install btcpayserver-vault
 brew cask install tor-browser
 brew cask install joplin
 brew cask install appcleaner # clean up of Mac apps
+brew cask install suspicious-package # check mac pkg installer files
 brew cask install openmtp # Transfer files from Android to mac
 brew cask install google-drive-file-stream
 # brew cask install syncplay # to play movie files and watch together with someone remotely
