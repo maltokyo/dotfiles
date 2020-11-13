@@ -22,6 +22,7 @@ brew install moreutils
 brew install findutils
 # Install GNU `sed`, overwriting the built-in `sed`.
 # zmalmark this one didnt accept the --with-default-names option: brew install gnu-sed --with-default-names
+brew install gnu-sed
 # Install a modern version of Bash.
 brew install bash
 brew install bash-completion2
@@ -116,12 +117,12 @@ brew cask install keepassxc
 brew cask install vlc
 brew cask install github
 # brew cask install bbedit
-brew cask install nextcloud
+#brew cask install nextcloud
 brew cask install balenaetcher
 brew cask install calibre
 brew cask install electrum
 brew cask install gimp
-brew cask install docker
+#brew cask install docker
 brew cask install transmission
 # brew cask install darktable
 # brew cask install rawtherapee
@@ -135,7 +136,7 @@ brew cask install joplin
 brew cask install appcleaner # clean up of Mac apps
 brew cask install suspicious-package # check mac pkg installer files
 brew cask install openmtp # Transfer files from Android to mac
-brew cask install google-drive-file-stream
+#brew cask install google-drive-file-stream
 # brew cask install syncplay # to play movie files and watch together with someone remotely
 
 # zmalmark - My Transmit licence is version 4, so I can only get latest version of 4 which is 4.1.3
