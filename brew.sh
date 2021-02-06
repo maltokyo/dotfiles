@@ -106,7 +106,7 @@ brew install zopfli
 
 # zmalmark binaries.
 brew install fdupes
-brew install rclone
+# brew install rclone - rclone mount command doesnt work at least in v 1.5.4 on mac by the brew version, need to get from web, install same way as on linux
 brew install htop
 brew install tor
 
@@ -152,7 +152,8 @@ git config --global commit.gpgsign false
 #brew cask install virtualbox-extension-pack
 
 # malmark for reading ext4 volumnes from here: https://www.maketecheasier.com/mount-access-ext4-partition-mac/
-brew cask install osxfuse
+# brew cask install osxfuse - this was replaced by macfuse it seems
+brew cask install macfuse
 brew install ext4fuse
 
 # Remove outdated versions from the cellar.
