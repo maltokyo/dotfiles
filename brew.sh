@@ -151,8 +151,10 @@ git config --global commit.gpgsign false
 #brew cask install virtualbox
 #brew cask install virtualbox-extension-pack
 
-# Reikey keylogger detection
+# objective-see.com malware protection Reikey keylogger detection
 brew install reikey
+brew install knockknock
+brew install lulu
 
 # malmark for reading ext4 volumnes from here: https://www.maketecheasier.com/mount-access-ext4-partition-mac/
 # brew cask install osxfuse - this was replaced by macfuse it seems
